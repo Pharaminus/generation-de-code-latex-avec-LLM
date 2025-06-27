@@ -1,0 +1,27 @@
+# Installez toutes les dépendances avec la commande : pip install -r requirements.txt
+
+# --- Dépendances du Backend Web (FastAPI) ---
+fastapi
+python-dotenv
+requests
+uvicorn[standard]
+
+# --- Dépendances du Pipeline de Données (Scraping & Génération) ---
+google-generativeai
+feedparser
+Pillow
+tqdm
+# Jupyter est utilisé pour exécuter les notebooks, mais n'est généralement pas inclus
+# dans les requirements d'une application. Installez-le séparément si nécessaire : pip install notebook
+jupyter
+
+# --- Dépendances du Fine-Tuning de Modèle (Prompt Tuning) ---
+# Ces versions sont basées sur le notebook de prompt-tuning pour assurer la compatibilité.
+accelerate>=0.28
+datasets
+numpy
+optuna
+ray[tune]
+torch
+transformers>=4.38
+tokenizers>=0.21,<0.22 # Spécifié par transformers
