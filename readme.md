@@ -1,4 +1,4 @@
-# Générateur LaTeX IA & Pipeline de Fine-Tuning
+# Générateur LaTeX avec LLM  & Pipeline de Prompt-Tuning
 
 ## Vue d'ensemble
 
